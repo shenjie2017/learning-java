@@ -15,6 +15,12 @@ import java.util.List;
 public class HeapOOM {
     static class OOMObject{
     }
+
+    /**
+     * jvm param: -Xmx20m
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) {
         List<OOMObject> list = new ArrayList<OOMObject>();
         while(true){

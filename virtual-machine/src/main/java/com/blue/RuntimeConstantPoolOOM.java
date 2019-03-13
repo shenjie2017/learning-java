@@ -16,6 +16,10 @@ public class RuntimeConstantPoolOOM {
 
     final static String language = "java";
 
+    /**
+     * jvm param: -XX:PermSize=10M -XX:MaxPermSize=10M -Xmx10m -Xms10m -Xss10m
+     * @param args
+     */
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
 

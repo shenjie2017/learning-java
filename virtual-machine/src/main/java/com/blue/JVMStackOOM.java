@@ -28,6 +28,10 @@ public class JVMStackOOM {
         }
     }
 
+    /**
+     * jvm param: -Xss4k -Xmx20m -Xms20m
+     * @param args
+     */
     public static void main(String[] args) {
         JVMStackOOM oom = new JVMStackOOM();
         oom.stackLeakByThread();

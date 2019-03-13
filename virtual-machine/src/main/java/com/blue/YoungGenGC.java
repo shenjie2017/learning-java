@@ -10,6 +10,11 @@ package com.blue;
  * @Description:
  */
 public class YoungGenGC {
+
+    /**
+     * jvm param: -XX:+PrintGCDetails
+     * @param args
+     */
     public static void main(String[] args) {
         int k = 1024;
         int[] arr = new int[20*k];
